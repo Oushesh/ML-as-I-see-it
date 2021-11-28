@@ -50,5 +50,5 @@ int main()
 For Nvidia use nvcc to compile the
 nvcc
 
-Compile :
+Compile here:
 */
