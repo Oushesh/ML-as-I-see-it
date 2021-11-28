@@ -6,8 +6,8 @@
 void add(int n, float *x, float *y)
 {
   for (int i=0;i<n;i++)
+    y[i]=x[i]+y[i];
 }
-
 
 int main()
 {
@@ -31,3 +31,8 @@ int main()
   delete [] y;
   return 0;
 }
+
+/*
+To compile use:
+g++ add_cpu.cpp -o add_cpu.o
+*/
