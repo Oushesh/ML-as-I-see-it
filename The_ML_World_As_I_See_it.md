@@ -17,7 +17,7 @@
     I use images or recently videos.
     Images and videos(series of images)
     These are natively consumed into arrays (numpy arrays or tensors whether pytorch or tensorflow).
-    So for these 2 datatypes no seprate processes are required for the Neural Network to consume those data.
+    So for these 2 datatypes no separate processes are required for the Neural Network to consume those data.
 
     However, in the case of limited data storage or because of "beautiful purposes", one might do an online data augmentation or preprocessing once the pipeline is ran on a GPU cluster machine.
 
@@ -27,5 +27,8 @@
 
   Here is the dilemma though: It is well know that augmentations in data involve mainly if not only:
   matrix transformations. Each transformation on the original image (matrix data input) is applied.
-  Thus, individual transformations: 
+  Thus, individual transformations could be easily wrtitten using Cupy or with Numba JIT compiler by adding the decorator.
 ## Does it make sense?
+
+
+## Reference: https://github.com/aws-samples/sagemaker-cv-preprocessing-training-performance/blob/main/src/sm_augmentation_train-script.py
