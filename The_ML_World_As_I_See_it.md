@@ -1,4 +1,5 @@
 ## The WHy?
+    An AI first company  
 
 ## The What needed?
 
@@ -53,7 +54,10 @@
    The concept of using Nvidia DALI is really powerful.
    In a nutshell the data preprocessing is entirely done on GPUs.
 
+   Nonetheless, here are some important things to consider:
+
 ## Best Practices in General:
+   
 
 
 

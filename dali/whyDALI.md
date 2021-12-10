@@ -15,4 +15,3 @@
       However doing those transformations online after loading the data from SSD to CPU and performing those operations is costly and hurt the overall pipeline
 
       Instead its better to perform those operations directly on GPU.
-      
