@@ -7,7 +7,6 @@
 
    The real question for the engineer is after the PoC works: how do you make it into a production close-to-be-ready version?
 
-
       Tips on Tensorflow:
       * 1. Usually the session is created
         2. Placeholder is defined and the image is
