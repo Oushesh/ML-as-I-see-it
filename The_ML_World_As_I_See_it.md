@@ -54,7 +54,7 @@
    In a nutshell the data preprocessing is entirely done on GPUs.
 
 ## Best Practices in General:
-   
+
 
 
 
