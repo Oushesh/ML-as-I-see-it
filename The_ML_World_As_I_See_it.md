@@ -57,7 +57,7 @@
    Nonetheless, here are some important things to consider:
 
 ## Best Practices in General:
-   
+
 
 
 
