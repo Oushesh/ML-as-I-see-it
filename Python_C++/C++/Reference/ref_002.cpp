@@ -10,20 +10,12 @@ def swap(a,b):
 #include <iostream>
 using namespace std;
 
+
 struct student
 {
   string name;
   string address;
-  int rollNo;
-}
-
-//If we remove & in below function, a new copy
-// of the student object is created. We use
-//const to avoid accident updates. The reference
-//cannot be changed
-void print(const Student &s)
-{
-  cout << s.name << " " << s.ddress << " " << s.rollNo;
+  int
 }
 
 void swap(int a, int b)

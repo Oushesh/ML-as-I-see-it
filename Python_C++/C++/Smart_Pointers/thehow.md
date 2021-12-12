@@ -22,6 +22,17 @@
 
   ![unique_ptr](uniquePtr.png)
 
-    2. shared_ptr -->  
+    Example here:
+    # add screenshot here.
 
-  3. weak_ptr -->
+    2. shared_ptr -->  more than 1 pointer can point to this one object at
+    a time and it will maintain a Reference Counter using "use_count()" method.
+
+  ![shared_ptr](shared_ptr.png)
+
+    3. weak_ptr --> its much more similar to shared_ptr except it will not
+    maintain a "Reference Counter". In this case, a pointer will not have a
+    stronghold on the object. The reason is if suppose pointers are holding
+    the object and requesting for other objects then they may form a Deadlock.
+
+    

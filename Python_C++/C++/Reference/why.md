@@ -12,4 +12,5 @@
     * For instance:
       good for use with vector data structure for printing purposes.
 
+    * 
 ## Disadvantages
