@@ -15,4 +15,13 @@
      (Smart pointer = pointer + operator overload) #
      e.g. destruction of allocated memory.
 
-      
+   * How:
+
+## The types:
+    1. unique_ptr --> stores 1 pointer only. We cannot assign a different object by removing the current object from the pointer.
+
+  ![unique_ptr](uniquePtr.png)
+
+    2. shared_ptr -->  
+
+  3. weak_ptr -->
