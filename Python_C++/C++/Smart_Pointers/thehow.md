@@ -1,10 +1,6 @@
 ## Reference:
    https://www.geeksforgeeks.org/smart-pointers-cpp/
 
-## Pointers vs Normal Pointers in C++
-   * Smart Pointers in C++ and How to Use Them.
-
-
 ## Smart Pointers
    * Why: When a pointer is declared for the "new" object:
      there is a memory allocated for the object. Unless the
@@ -34,5 +30,3 @@
     maintain a "Reference Counter". In this case, a pointer will not have a
     stronghold on the object. The reason is if suppose pointers are holding
     the object and requesting for other objects then they may form a Deadlock.
-
-    
