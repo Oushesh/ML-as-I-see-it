@@ -37,7 +37,6 @@
     7. Delete the variable when not in use.
   ![free_memory](free_mem.png)
 
-
 ## One Caveart though:
    The CPU-GPU conversion is the limiting factor though specially in Machine Learning world.
    There are several ways adapted to individual situation to solve the problem.
