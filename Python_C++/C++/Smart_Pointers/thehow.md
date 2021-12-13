@@ -11,7 +11,13 @@
      (Smart pointer = pointer + operator overload) #
      e.g. destruction of allocated memory.
 
-   * How:
+      For example here:
+        ![normal_pointer_leak](memory_leak_pointers.png)
+
+      If the object is not destroyed, it will create memory "leak"
+
+      Unless one "deletes" it, the memory is not released until the computer finishes executing the code. Here never since we have infinite loop  
+
 
 ## The types:
     1. unique_ptr --> stores 1 pointer only. We cannot assign a different object by removing the current object from the pointer.

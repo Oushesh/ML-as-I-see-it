@@ -20,7 +20,7 @@ create()
 
 int main()
 {
-  //infinite loop
+  //infinite loopp
   while (1)
   {
     Rectangle* AB = new Rectangle();
