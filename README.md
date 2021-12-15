@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Why for me?
   As mentioned by Einstein, physics is about explaining the day-to-day observation and phenomeon.
   Analogically Engineering is about optimising day to day practices such that life works at "click of a button".
