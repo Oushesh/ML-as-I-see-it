@@ -1,8 +1,8 @@
 ## Why for me?
-  As mentioned by Einstein, physics is about explaining the day-to-day observation and phenomeon.
+  As mentioned by Einstein, physics is about explaining the day-to-day observation and phenomenon.
   Analogically Engineering is about optimising day to day practices such that life works at "click of a button".
 
-  A Computer Vision and Deep Learning Engineer day to day life involve a lot of protoyping, training
+  A Computer Vision and Deep Learning Engineer day to day life involve a lot of prototyping, training
   neural networks, building PoCs, MVPs and putting features into production as in my case.
 
 
@@ -21,3 +21,7 @@
     (Moto of Porsche introduced by Dr. Ferdinand Porsche).
     Its not about how much features you make but how good only 1 feature is.
     And also I am a Porsche Fan.
+
+## The really Intelligent Companies
+   Check Details here: Data_Acquisition/examples.md
+   
