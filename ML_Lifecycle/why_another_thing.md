@@ -45,6 +45,6 @@
   5. The results of the visualisation and the task:
   ![visualisation_ip](ML_flow/mlflow_visualisation_tool_API.png)
 
-
   #### 2. Reproducibility
-       Folder structures:
+       Folder structures: Usually any experiment contains
+       an artifact tag: 
