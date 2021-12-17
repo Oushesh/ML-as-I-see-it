@@ -37,11 +37,14 @@
 
   ![import_ml](ML_Flow/experiment_setup.png)
 
-
   3. We are going to later use the name to call the MLFlow UI Api to display the results of the training task.
 
   4. We need to add the log to visualise the results afterwards using the local IP.
   ![visualiasation_tool](ML_Flow/visualisation_ip.png)
 
+  5. The results of the visualisation and the task:
+  ![visualisation_ip](ML_flow/mlflow_visualisation_tool_API.png)
+
+
   #### 2. Reproducibility
-       Folder structures: 
+       Folder structures:
