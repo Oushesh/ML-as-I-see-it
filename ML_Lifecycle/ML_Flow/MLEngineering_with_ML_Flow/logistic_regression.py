@@ -22,7 +22,6 @@ with mlflow.start_run():
     clf = LogisticRegression()
     clf.fit(X_train,y_train)
 
-
 '''
 Above, the mlflow.sklearn.autolog() instruction enbalbes you to automatically log the
 experiment in the local directory.

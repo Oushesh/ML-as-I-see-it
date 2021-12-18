@@ -46,5 +46,12 @@
   ![visualisation_ip](ML_flow/mlflow_visualisation_tool_API.png)
 
   #### 2. Reproducibility
-       Folder structures: Usually any experiment contains
-       an artifact tag: 
+       In the context of an AI-First Company and Machine Learning in General:
+       Reproducibility is a key aspect which is why ML Flow "mlruns" comes into play.
+       See the structure below:
+
+  ![Directory_ML_OPS](ML_Flow/directory_definition.png)
+
+  Logistic regression.py or any code "trainer.py"
+
+  #### 3. 
