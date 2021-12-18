@@ -60,13 +60,12 @@
     The colleagues take "conda.yaml" --> create and environment and
     replicate the test to get the results I showed. Pretty terrific, right.
 
-
-    Another advantage is the mlrun already provides all the statistics:
+    Another advantage is the "mlrun" already provides all the statistics:
     F1-score, log_loss, accuracy, ROC, confusion matrix.
     This saves an inhouse implementation and as such dev. costs and maintenance.
 
     Example of generated confusion matrix:
-    ![confusion_matrix](ML_Flow/artifacts/)
-    ""
+  ![confusion_matrix](ML_Flow/mlruns/MLEngineering_with_ML_Flow/mlruns/0/d2c7fbe71be4443aa20b33a2e26f4a17/artifacts/training_confusion_matrix.png)
+
 
   #### 3.
