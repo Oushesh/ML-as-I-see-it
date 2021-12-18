@@ -48,10 +48,25 @@
   #### 2. Reproducibility
        In the context of an AI-First Company and Machine Learning in General:
        Reproducibility is a key aspect which is why ML Flow "mlruns" comes into play.
-       See the structure below:
 
-  ![Directory_ML_OPS](ML_Flow/directory_definition.png)
+  ![Directory_ML_OPS](ML_Flow/directory.png)
 
-  Logistic regression.py or any code "trainer.py"
+  Logistic regression.py or any code "trainer.py" for instance will generate
+  an "mlruns" directory.
 
-  #### 3. 
+    This is where the magic occurs, as a Deep Learning R&D Engineer I can now give the folder to my colleagues or put it onto a working .git: and its easier to
+    convey messages at standup.
+
+    The colleagues take "conda.yaml" --> create and environment and
+    replicate the test to get the results I showed. Pretty terrific, right.
+
+
+    Another advantage is the mlrun already provides all the statistics:
+    F1-score, log_loss, accuracy, ROC, confusion matrix.
+    This saves an inhouse implementation and as such dev. costs and maintenance.
+
+    Example of generated confusion matrix:
+    ![confusion_matrix](ML_Flow/artifacts/)
+    ""
+
+  #### 3.
