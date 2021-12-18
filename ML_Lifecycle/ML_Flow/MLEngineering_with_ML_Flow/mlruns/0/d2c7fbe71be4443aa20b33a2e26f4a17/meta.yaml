@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/oushe/Documents/WORKSPACE/ML-as-I-see-it/ML_Lifecycle/ML_Flow/MLEngineering_with_ML_Flow/mlruns/0/d2c7fbe71be4443aa20b33a2e26f4a17/artifacts
+end_time: 1639827475387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d2c7fbe71be4443aa20b33a2e26f4a17
+run_uuid: d2c7fbe71be4443aa20b33a2e26f4a17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1639827468269
+status: 3
+tags: []
+user_id: oushe
