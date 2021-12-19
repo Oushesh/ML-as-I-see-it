@@ -16,8 +16,10 @@
    2. Just use MLFlow. The new scenario becomes I pass the ML Flow model and MLFlow environment. More cool stuffs: you can
    also track the experiment using the Visualisation.
 
-## What happens if I dont use it?
+## What happens if I don't use it?
+   ML Life Cyle will be a nightmare.
 
+   
 ## The how of the story.
    #### 1. Visualisation TOOL
    ![classical_pipeline](ML_Flow/ml_flow_classical.png)
