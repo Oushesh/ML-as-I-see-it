@@ -10,6 +10,15 @@
 
 ## Best Way to perform on Site Data Collection and Capture
    One of the most underrated or unused aspects of data collection is the temporal aspect of data
+   which is so much underused.
+
+   For the application of Augmented Reality project (shoe overlay try in VR), one needed lots of
+   try-on data to train neural networks for accurate positioning. Instead of relying
+   from costly capture tools one can setup one easily with a phone while doing the product-try-on.
+
+   Instantanous segmentation data collection. Harnessing the power of videos is infinite over
+   discrete images which a lot of companies dont invest in or dont know. Tesla is a great example of one that does account for temporal correlation while acquiring data.
+
    ![object_raw_1](object_raw_capture_001.png)
    ![segmentation_mask_1](segmentation_mask_001.png)
    ![object_raw_2](object_raw_capture_002.png)
@@ -55,3 +64,7 @@
   ![bogus_annotation](DeepExTr_Annotation_001.png)
   ![bogus_annotation](DeepExTr_Annotation_002.png)
   ![bogus_annotation](DeepExTr_Annotation_003.png)
+
+
+
+Ref: https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting more to come
