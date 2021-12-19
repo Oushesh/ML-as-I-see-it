@@ -17,9 +17,8 @@
    also track the experiment using the Visualisation.
 
 ## What happens if I don't use it?
-   ML Life Cyle will be a nightmare.
+   ML Life Cycle will be a nightmare.
 
-   
 ## The how of the story.
    #### 1. Visualisation TOOL
    ![classical_pipeline](ML_Flow/ml_flow_classical.png)
