@@ -79,5 +79,12 @@
        --> MLflow Models:
        --> MLflow Model Registry:
 
+### MLFlow Pytorch Example of things:
+    MLFlow Project as a wrapper supports a various
+    number of projects/model flavors: mlflow model pytorch, tensorflow and pyfunc flavour.
 
-       
+
+    This allows one to easily save and restore a model where one wants to recheck a given experiment.
+
+
+    Example:       
