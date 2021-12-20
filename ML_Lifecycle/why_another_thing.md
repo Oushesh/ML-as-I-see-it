@@ -16,8 +16,7 @@
    2. Just use MLFlow. The new scenario becomes I pass the ML Flow model and MLFlow environment. More cool stuffs: you can
    also track the experiment using the Visualisation.
 
-## What happens if I don't use it?
-   ML Life Cycle will be a nightmare.
+## What happens if I dont use it?
 
 ## The how of the story.
    #### 1. Visualisation TOOL
@@ -80,10 +79,7 @@
        --> MLflow Models:
        --> MLflow Model Registry:
 
-### MLFlow Pytorch Flavour:
-
-  Example
-
+### MLFlow Pytorch Example of things:
     MLFlow Project as a wrapper supports a various
     number of projects/model flavors: mlflow model pytorch, tensorflow and pyfunc flavour.
 
@@ -91,5 +87,6 @@
     This allows one to easily save and restore a model where one wants to recheck a given experiment.
 
 
-Example:
-![mlflow_pytorch_restore](ML_Flow/mlflow_restore_run.png)
+    Example: 
+    ![mlflow_pytorch_restore](mlflow_restore_run.png)
+s
