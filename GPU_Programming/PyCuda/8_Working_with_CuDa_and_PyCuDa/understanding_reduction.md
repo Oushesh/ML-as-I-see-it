@@ -25,15 +25,20 @@
         * Python for GPUs to interface
         *  CUDA and accelerate computations
         * Reduction in pyCUDA is much simpler kudos to pycuda.reduction (https://github.com/inducer/pycuda/blob/main/pycuda/reduction.py) module
-
+        *
   Its pretty clear that PyCUDA is the choice to go. I mean one has to know and Understand
-  C++ but the one who wrote PyCUDA did a great job: otherwise its inevitable that one
-  has to write it. Without PyCUDA we would have to reoptimise the __global__ kernel
+  C++ but the one who wrote PyCUDA did a great job: otherwise its inevitable that one has to write it. Without PyCUDA we would have to reoptimise the __global__ kernel
   code depending on different GPU models with different number of threads and blocks.
 
-
 ## Example of Using Reduction in PyCUDA:
-   
+   The core aspect of Reduction in PyCUDA is the ReductionKernel:
 
+   ![ReductionKernel](image/kernel_definition.png)
 
-## References: Hands on-GPU-Computing
+   The reduction takes the following arguments
+   * First Entry -->  data type of output
+   * second entry --> data types of inputs
+   * third entry --> map operation (here: product of the "i-th" element of the 2 vectors)
+   * fourth entry --> reduction operation (here: sum of all products)
+
+## References: Python Parallel Programming Cookbook: Giancarlo Zaccone
