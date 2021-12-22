@@ -4,7 +4,7 @@
    Things get infinitely fast.
 
 ## Below is a comparison of CPU code to be converted to GPU code:
-   ![cpu_code](cpu_code.png)  
+   ![cpu_code](image/cpu_code.png)  
 
    Steps needed to convert the code to native CUDA:
 
@@ -14,7 +14,7 @@
 
     2. Converting functions to --> CUDA Kernels
 
-  ![kernel_code](kernel_writeup.png)
+  ![kernel_code](image/kernel_writeup.png)
 
       As shown above, the only
       thing to do is add __global__ kernel type to the function: change the index for the iteration, i.e. here matrix multiplication. For 2D and 1D matrix multiplication we need:
@@ -22,20 +22,20 @@
 
     3. Declare and allocate the corresponding variables on the device (GPU)
 
-  ![variable_declaration](declaration_variable.png)
+  ![variable_declaration](image/declaration_variable.png)
 
     4. First of all, the variable is on the CPU and needs to be transferred to GPU.
-  ![cpu-gpu](copy_inputs_gpu.png)
+  ![cpu-gpu](image/copy_inputs_gpu.png)
 
     5. Initialize Cuda Events and call the CUDA modified function.
-  ![cuda_events](cudaEvents.png)
+  ![cuda_events](image/cudaEvents.png)
 
     6. If needed, we can opt to copy the result (called post-processing for Machine Learning Pipelines) back to the CPU. This is usually a bottleneck in
     the process of large data.
-  ![mem_copy](memcopy.png)
+  ![mem_copy](image/memcopy.png)
 
     7. Delete the variable when not in use.
-  ![free_memory](free_mem.png)
+  ![free_memory](image/free_mem.png)
 
 ## One Caveart though:
    The CPU-GPU conversion is the limiting factor though specially in Machine Learning world.
@@ -54,8 +54,8 @@
     a simple matrix multiplication here.
 
   Below one can see: the Copying from Host/CPU to device/GPU takes 10 times more than the execution of the function itself.
-  ![nvprog_transfer](nvprog_transfer.png)
+  ![nvprog_transfer](image/nvprog_transfer.png)
 
   As an improvement we use the CuDaMallocManaged (unified memory which can be accessed by both CPU and GPU). This cuts the transfer from "863 + 430 ms" to "357 ms".
 
-  ![nvprog_transfer_unified_memory](nvprog_transfer_unified_memory.png)
+  ![nvprog_transfer_unified_memory](image/nvprog_transfer_unified_memory.png)

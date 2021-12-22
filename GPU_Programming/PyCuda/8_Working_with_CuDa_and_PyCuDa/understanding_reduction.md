@@ -4,4 +4,4 @@
 
 ## Explanation and Reference: https://eximia.co/implementing-parallel-reduction-in-cuda/
 
-## 
+##
