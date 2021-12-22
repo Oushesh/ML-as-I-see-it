@@ -9,7 +9,7 @@ __global__ void multiply(double *p, double *q, unsigned long n) {
   int index = threadIdx.x + blockIdx.x * blockDim.x;
   if (index < n) q[index] = p[index] * q[index];
 }
-
+p
 int main(void)
 {
   double *p, *q; // host copies of p, q
