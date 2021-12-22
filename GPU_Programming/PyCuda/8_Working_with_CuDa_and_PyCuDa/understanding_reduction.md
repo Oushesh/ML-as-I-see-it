@@ -13,7 +13,6 @@
    and decompose a computation (kernel or function operation)
    into multiple kernel invocations.
 
-
 ## The dilemma: Comparing Pycuda to Cuda from a reduction perspective
     CUDA                             
         * C/C++ Based                      
@@ -25,7 +24,7 @@
         * Python for GPUs to interface
         * CUDA and accelerate computations
         * Reduction in pyCUDA is much simpler kudos to pycuda.reduction (https://github.com/inducer/pycuda/blob/main/pycuda/reduction.py) module
-        *
+        * 
   Its pretty clear that PyCUDA is the choice to go. I mean one has to know and Understand
   C++ but the one who wrote PyCUDA did a great job: otherwise its inevitable that one has to write it. Without PyCUDA we would have to reoptimise the __global__ kernel
   code depending on different GPU models with different number of threads and blocks.
