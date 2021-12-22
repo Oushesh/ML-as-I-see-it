@@ -23,7 +23,7 @@
     PyCUDA
         * Python Based
         * Python for GPUs to interface
-        *  CUDA and accelerate computations
+        * CUDA and accelerate computations
         * Reduction in pyCUDA is much simpler kudos to pycuda.reduction (https://github.com/inducer/pycuda/blob/main/pycuda/reduction.py) module
         *
   Its pretty clear that PyCUDA is the choice to go. I mean one has to know and Understand
@@ -35,7 +35,7 @@
 
    ![ReductionKernel](image/kernel_definition.png)
 
-   The reduction takes the following arguments
+   The reduction takes the following arguments:
    * First Entry -->  data type of output
    * second entry --> data types of inputs
    * third entry --> map operation (here: product of the "i-th" element of the 2 vectors)
