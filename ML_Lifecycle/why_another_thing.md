@@ -87,6 +87,6 @@
     This allows one to easily save and restore a model where one wants to recheck a given experiment.
 
 
-    Example: 
+    Example:
     ![mlflow_pytorch_restore](mlflow_restore_run.png)
 s
