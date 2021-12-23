@@ -26,7 +26,6 @@
    ![object_raw_1](object_raw_capture_003.png)
    ![segmentation_mask_3](segmentation_mask_003.png)
 
-
 ## Communication and Shareholders
    Usually when one chooses a Data Annotation company, that company should have Data Quality Analysis as well.
 
@@ -52,8 +51,7 @@
    Secondly, quality of output with fewer clicks.
 
 
-   The mistake of AI Companies is they rely in the one size fits all approach. In this case
-   like everyone relying on popular tools: CVAT,etc.. Since this particular use-case deals
+   The mistake of AI Companies is that they rely in the one size fits all approach. In this case like everyone relying on popular tools: CVAT,etc.. Since this particular use-case deals
    only with trousers, feet and shoes. Its well defined for a machine learning based segmentation model and grab cut. The idea behind was to propagate the segmentation using Grab Cut.
 
    The idea is inspired by artists and the Adobe Lasso-Tool (https://helpx.adobe.com/photoshop/using/content-aware-fill.html)
@@ -62,8 +60,12 @@
 
 
   ![bogus_annotation](DeepExTr_Annotation_001.png)
+
   ![bogus_annotation](DeepExTr_Annotation_002.png)
+
   ![bogus_annotation](DeepExTr_Annotation_003.png)
+
+  ![gif](extremepoint_based_segmentation.gif)
 
 
 
