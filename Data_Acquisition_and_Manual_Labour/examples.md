@@ -10,7 +10,7 @@
 
 ## Best Way to perform on Site Data Collection and Capture
    One of the most underrated or unused aspects of data collection is the temporal aspect of data
-   which is so much underused.
+   which is so much ignore or overseen.
 
    For the application of Augmented Reality project (shoe overlay try in VR), one needed lots of
    try-on data to train neural networks for accurate positioning. Instead of relying
