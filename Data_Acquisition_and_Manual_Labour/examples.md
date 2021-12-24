@@ -17,14 +17,27 @@
    from costly capture tools one can setup one easily with a phone while doing the product-try-on.
 
    Instantanous segmentation data collection. Harnessing the power of videos is infinite over
-   discrete images which a lot of companies dont invest in or dont know. Tesla is a great example of one that does account for temporal correlation while acquiring data.
+   discrete images which a lot of companies don't invest in or don't know. Tesla is a great example of one that does account for temporal correlation while acquiring data.
 
+   * The First one is the input videos.
+   * The second one being the segmentation mask.
+
+   ![object_raw_video](object_raw_capture_session.gif)
+   ![shoe_segmentation](shoe_segmentation_mask.gif)
    ![object_raw_1](object_raw_capture_001.png)
    ![segmentation_mask_1](segmentation_mask_001.png)
    ![object_raw_2](object_raw_capture_002.png)
    ![segmentation_mask_2](segmentation_mask_002.png)
    ![object_raw_1](object_raw_capture_003.png)
    ![segmentation_mask_3](segmentation_mask_003.png)
+
+
+   This app or automatic detection software was possible with a combination of
+   Roust Video Matting and Optical Flow Estimation with Neural Networks.
+   In 1 min of user-capture session, one can have automatic or semi-automatic
+   segmentation data instantaneous at thousandth of the cost.
+
+
 
 ## Communication and Shareholders
    Usually when one chooses a Data Annotation company, that company should have Data Quality Analysis as well.
