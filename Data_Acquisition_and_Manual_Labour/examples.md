@@ -37,8 +37,6 @@
    In 1 min of user-capture session, one can have automatic or semi-automatic
    segmentation data instantaneous at thousandth of the cost.
 
-
-
 ## Communication and Shareholders
    Usually when one chooses a Data Annotation company, that company should have Data Quality Analysis as well.
 
