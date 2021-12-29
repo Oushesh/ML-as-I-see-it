@@ -31,9 +31,9 @@
    ![object_raw_1](object_raw_capture_003.png)
    ![segmentation_mask_3](segmentation_mask_003.png)
 
-   ![video](shoe_input_RVM_blue_shoe.mp4)
+   ![raw_shoe_video](shoe_input_RVM_blue_shoe.mp4)
 
-   
+
    This app or automatic detection software was possible with a combination of
    Roust Video Matting and Optical Flow Estimation with Neural Networks.
    In 1 min of user-capture session, one can have automatic or semi-automatic
