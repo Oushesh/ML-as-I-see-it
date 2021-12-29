@@ -31,8 +31,10 @@
    ![object_raw_1](object_raw_capture_003.png)
    ![segmentation_mask_3](segmentation_mask_003.png)
 
-   ![raw_shoe_video](https://drive.google.com/file/d/1pUSZenXnL2n3dcf3iR9eNZqJplVdBy3D/view?usp=sharing)
-   ![hot_bikini_girl](https://www.youtube.com/watch?v=zksWxPCxFf8)
+
+   [![raw_shoe_video](object_raw_capture_001.png)](https://www.youtube.com/watch?v=zksWxPCxFf8)
+   ![](https://drive.google.com/file/d/1pUSZenXnL2n3dcf3iR9eNZqJplVdBy3D/view?usp=sharing)
+   ![hot_bikini_girl]()
 
    This app or automatic detection software was possible with a combination of
    Roust Video Matting and Optical Flow Estimation with Neural Networks.
