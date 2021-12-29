@@ -3,4 +3,8 @@
 
 
    * Similar to the tools showed for the Virtual Try-on for shoes
-     I made: 
+     I made a tool for Video editing using Generative GAN inpainting Techniques and Neural Network for Optical Flow
+     estimation to stabilise the inpainting method.
+
+
+     Some 

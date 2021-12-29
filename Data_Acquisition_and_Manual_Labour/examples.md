@@ -16,7 +16,7 @@
    try-on data to train neural networks for accurate positioning. Instead of relying
    from costly capture tools one can setup one easily with a phone while doing the product-try-on.
 
-   Instantanous segmentation data collection. Harnessing the power of videos is infinite over
+   Instantaneous segmentation data collection. Harnessing the power of videos is infinite over
    discrete images which a lot of companies don't invest in or don't know. Tesla is a great example of one that does account for temporal correlation while acquiring data.
 
    * The First one is the input videos.
