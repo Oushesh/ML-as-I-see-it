@@ -72,7 +72,7 @@
 
    The idea is inspired by artists and the Adobe Lasso-Tool (https://helpx.adobe.com/photoshop/using/content-aware-fill.html)
 
-   ###whereartistmeetsengineering
+   ## whereartistmeetsengineering
 
 
   ![bogus_annotation](DeepExTr_Annotation_001.png)
@@ -82,7 +82,3 @@
   ![bogus_annotation](DeepExTr_Annotation_003.png)
 
   ![gif](extremepoint_based_segmentation.gif)
-
-
-
-Ref: https://github.com/nbei/Deep-Flow-Guided-Video-Inpainting more to come
