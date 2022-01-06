@@ -18,3 +18,9 @@
    ![scene_unetited](scene_unedited.gif)
 
    ![scene_edited](scene_edited_after_object_removal.gif)
+
+
+## Consistent Depth Estimation
+
+
+## Mipnerf 360 Video Here and how to use it: 
